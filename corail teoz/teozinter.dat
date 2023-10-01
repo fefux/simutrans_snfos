@@ -1,0 +1,26 @@
+#-------------------------------------------------------------------------------
+#
+#   Corail Teoz 1ere classe
+#
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SNCF_teoz (Voiture intermediaire)
+Copyright=Fefe
+waytype=track
+freight=Passagiere
+payload=28
+speed=200
+cost=1480000
+weight=42
+RunningCost=40
+intro_year=2003
+Constraint[Prev][1]=none
+EmptyImage[S]=teozinter.0.0
+EmptyImage[E]=teozinter.0.1
+EmptyImage[SE]=teozinter.0.2
+EmptyImage[SW]=teozinter.0.3
+EmptyImage[N]=teozinter.0.4
+EmptyImage[W]=teozinter.0.5
+EmptyImage[NW]=teozinter.0.6
+EmptyImage[NE]=teozinter.0.7
+--------------------------------------------------------------------------------

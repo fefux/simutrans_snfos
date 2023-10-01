@@ -1,0 +1,138 @@
+#-------------------------------------------------------------------------------
+#
+
+#  Voiture Corail_lunea 
+#
+
+#-------------------------------------------------------------------------------
+
+obj=vehicle
+
+name=SNCF_Corail_lunea 1ere classe
+Copyright=Fefe
+
+waytype=track
+
+freight=Passagiere
+
+payload=75
+speed=180
+
+cost=2700000
+weight=42
+
+RunningCost=57
+intro_year=1989
+retire_year=2003
+Constraint[Next][0]=SNCF_Corail_lunea 1ere classe
+Constraint[Next][1]=SNCF_Corail_lunea voiture service
+Constraint[Next][2]=SNCF_Corail_lunea 2eme classe
+EmptyImage[S]=lunea.0.0
+
+EmptyImage[E]=lunea.0.1
+
+EmptyImage[SE]=lunea.0.2
+
+EmptyImage[SW]=lunea.0.3
+
+EmptyImage[N]=lunea.0.4
+
+EmptyImage[W]=lunea.0.5
+
+EmptyImage[NW]=lunea.0.6
+
+EmptyImage[NE]=lunea.0.7
+
+--------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
+#
+
+#  Voiture Corail_lunea 
+#
+
+#-------------------------------------------------------------------------------
+
+obj=vehicle
+
+name=SNCF_Corail_lunea 2eme classe
+Copyright=Fefe
+
+waytype=track
+
+freight=Passagiere
+
+payload=75
+speed=180
+
+cost=2700000
+weight=42
+
+RunningCost=57
+
+intro_year=1989
+retire_year=2003
+Constraint[Prev][0]=SNCF_Corail_lunea voiture service
+Constraint[Prev][1]=SNCF_Corail_lunea 2eme classe
+Constraint[Prev][2]=SNCF_Corail_lunea 1ere classe
+Constraint[Next][0]=SNCF_Corail_lunea 2eme classe
+Constraint[Next][1]=none
+EmptyImage[S]=lunea.1.0
+
+EmptyImage[E]=lunea.1.1
+
+EmptyImage[SE]=lunea.1.2
+
+EmptyImage[SW]=lunea.1.3
+
+EmptyImage[N]=lunea.1.4
+
+EmptyImage[W]=lunea.1.5
+
+EmptyImage[NW]=lunea.1.6
+
+EmptyImage[NE]=lunea.1.7
+
+--------------------------------------------------------------------------------
+
+#  Voiture Corail_lunea 
+#
+
+#-------------------------------------------------------------------------------
+
+obj=vehicle
+
+name=SNCF_Corail_lunea voiture service
+Copyright=Fefe
+
+waytype=track
+
+freight=Post
+payload=100
+speed=180
+
+cost=4856000
+weight=42
+
+RunningCost=87
+intro_year=1989
+retire_year=2003
+Constraint[Prev][0]=SNCF_Corail_lunea 1ere classe
+Constraint[Next][0]=SNCF_Corail_lunea voiture service
+Constraint[Next][1]=SNCF_Corail_lunea 2eme classe
+EmptyImage[S]=lunea.2.0
+
+EmptyImage[E]=lunea.2.1
+
+EmptyImage[SE]=lunea.2.2
+
+EmptyImage[SW]=lunea.2.3
+
+EmptyImage[N]=lunea.2.4
+
+EmptyImage[W]=lunea.2.5
+
+EmptyImage[NW]=lunea.2.6
+
+EmptyImage[NE]=lunea.2.7
+
+--------------------------------------------------------------------------------

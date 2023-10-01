@@ -1,0 +1,8 @@
+
+Makeobj version 50 for simutrans 102.1 Nightly and higher
+(c) 2002-2006 V. Meyer , Hj. Malthaner, M. Pristovsek (markus@pristovsek.de)
+
+Image size is set to 128x128
+writing file batmobile.pak
+   reading file batmobile.dat
+skipping unknown  citycar object  batmobile
